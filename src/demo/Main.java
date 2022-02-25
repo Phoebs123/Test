@@ -12,14 +12,14 @@ public class Main {
         return age;
     }
 
-    void greet() {
+    void hello() {
         System.out.print("What is your name: ");
         name = in.nextLine();
         System.out.println("Hi " + name);
     }
 
     void go() {
-        greet();
+        hello();
         int yourAge;
         yourAge = age;
         System.out.println("You are " + yourAge + " old");
